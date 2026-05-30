@@ -1,8 +1,8 @@
 import { Section } from "./Section";
 import { ArrowUpRight } from "lucide-react";
-import nimbus from "@/assets/proj-nimbus.jpg";
-import folio from "@/assets/proj-folio.jpg";
-import mitti from "@/assets/proj-mitti.jpg";
+import nimbus from "@/assets/proj-nimbus.png";
+import folio from "@/assets/proj-folio.png";
+import mitti from "@/assets/proj-mitti.png";
 
 const PROJECTS = [
   {
@@ -11,7 +11,7 @@ const PROJECTS = [
     desc: "A polished landing site for an AI operations platform — dark, conversion-focused, and engineered for speed.",
     stack: ["React", "TanStack", "Tailwind", "Motion"],
     image: nimbus,
-    url: "https://nimbus-orbynix.vercel.app",
+    url: "https://nimbus-hazel.vercel.app/",
   },
   {
     name: "Folio",
