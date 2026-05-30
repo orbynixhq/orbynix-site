@@ -29,17 +29,17 @@ export function Navbar() {
             scrolled ? "glass-strong shadow-elegant" : "border border-transparent",
           )}
         >
-          <a href="#top" className="flex items-center gap-2 group">
-            <span className="relative inline-flex h-8 w-8 items-center justify-center">
-              <span className="absolute inset-0 rounded-full bg-gradient-brand opacity-80 blur-[6px] group-hover:opacity-100 transition-smooth" />
-              <span className="relative h-7 w-7 rounded-full border border-white/30 bg-background/70 grid place-items-center">
-                <span className="h-2 w-2 rounded-full bg-gradient-brand" />
-              </span>
-            </span>
-            <span className="font-[Space_Grotesk] text-xl font-semibold tracking-tight">
-              {BRAND.name}
-            </span>
-          </a>
+<a href="#top" className="flex items-center gap-2 group">
+  <img 
+    src="/logo.svg" 
+    alt="Brand Logo" 
+    className="h-8 w-auto" 
+  />
+  {/* Optional: Keep the text next to the image by leaving this span */}
+  <span className="font-[Space_Grotesk] text-xl font-semibold tracking-tight">
+    {BRAND.name}
+  </span>
+</a>
 
           <nav className="hidden md:flex items-center gap-1">
             {NAV_LINKS.map((l) => (
