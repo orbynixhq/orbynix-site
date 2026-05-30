@@ -31,7 +31,7 @@ export function Navbar() {
         >
 <a href="#top" className="flex items-center gap-2 group">
   <img 
-    src="/logo.svg" 
+    src="/logo.png" 
     alt="Brand Logo" 
     className="h-8 w-auto" 
   />
