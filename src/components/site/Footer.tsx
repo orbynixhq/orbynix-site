@@ -16,15 +16,14 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 py-14">
         <div className="grid md:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="relative inline-flex h-8 w-8 items-center justify-center">
-                <span className="absolute inset-0 rounded-full bg-gradient-brand opacity-80 blur-[6px]" />
-                <span className="relative h-7 w-7 rounded-full border border-white/30 bg-background/70 grid place-items-center">
-                  <span className="h-2 w-2 rounded-full bg-gradient-brand" />
-                </span>
-              </span>
-              <span className="font-[Space_Grotesk] text-xl font-semibold">{BRAND.name}</span>
-            </div>
+           <div className="flex items-center gap-2">
+  <img 
+    src="/logo.png" 
+    alt="Brand Logo" 
+    className="h-8 w-auto" 
+  />
+  <span className="font-[Space_Grotesk] text-xl font-semibold">{BRAND.name}</span>
+</div>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
               {BRAND.tagline}
             </p>
